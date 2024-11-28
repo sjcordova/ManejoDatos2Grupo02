@@ -46,7 +46,7 @@ namespace ManejoDatosGrupo02.Repositories
             return estudiante;
         }
 
-        public IEnumerable<EstudianteUDLA> DevuelveListadoEstudiantesUDLA()
+        public Task<IEnumerable<EstudianteUDLA>> DevuelveListadoEstudiantesUDLA()
         {
             throw new NotImplementedException();
         }

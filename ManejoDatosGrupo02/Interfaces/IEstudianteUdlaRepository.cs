@@ -7,7 +7,7 @@ namespace ManejoDatosGrupo02.Interfaces
         bool CrearEstudianteUDLA(EstudianteUDLA estudiante);
         bool ActualizarEstudianteUDLA(EstudianteUDLA estudiante);
         bool EliminarEstudianteUDLA(int id);
-        IEnumerable<EstudianteUDLA> DevuelveListadoEstudiantesUDLA();
+        Task<IEnumerable<EstudianteUDLA>> DevuelveListadoEstudiantesUDLA();
         EstudianteUDLA DevuelveInfoEstudiante(int id);
     }
 }
