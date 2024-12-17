@@ -28,7 +28,12 @@ namespace ManejoDatosGrupo02.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<EstudianteUDLA>> DevuelveListadoEstudiantesUDLA()
+        public IEnumerable<EstudianteUDLA> DevuelveListadoEstudiantesUDLA()
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<IEnumerable<EstudianteUDLA>> DevuelveListadoEstudiantesUDLAAsync()
         {
             List<EstudianteUDLA> estudiantesUDLA = new List<EstudianteUDLA>();
 
@@ -43,7 +48,7 @@ namespace ManejoDatosGrupo02.Repositories
             {
                 throw;
             }
-
+            return new List<EstudianteUDLA>();
         }
 
         public bool EliminarEstudianteUDLA(int id)

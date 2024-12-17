@@ -12,7 +12,7 @@ namespace ManejoDatosGrupo02
         public MainPage()
         {
             InitializeComponent();
-            _estudianteUdlaRepository = new EstudianteUDLAFilesRepository();
+            _estudianteUdlaRepository = new EstudianteUDLASQLiteRepository();
 
             estudiante = _estudianteUdlaRepository.DevuelveInfoEstudiante(1);
 
