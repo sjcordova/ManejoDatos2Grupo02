@@ -11,7 +11,7 @@ namespace ManejoDatosGrupo02.Repositories
 {
     public class EstudianteUDLASQLiteRepository : IEstudianteUdlaRepository
     {
-        private string _dbPath = Path.Combine(FileSystem.AppDataDirectory, "EstudiantesUDLA.db3");
+        private string _dbPath = Path.Combine(FileSystem.AppDataDirectory, "EstudiantesUDLA2.db3");
         private SQLiteConnection _connection;
 
         public EstudianteUDLASQLiteRepository()
